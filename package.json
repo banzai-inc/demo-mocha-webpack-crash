@@ -1,0 +1,21 @@
+{
+  "name": "demo-mocha-webpack-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-webpack --webpack-config webpack.test.config.js \"src/**/*.test.js\" --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "mocha": "^2.5.3",
+    "mocha-webpack": "^0.3.1",
+    "path": "^0.12.7",
+    "webpack": "^1.13.1",
+    "webpack-node-externals": "^1.2.0"
+  }
+}
